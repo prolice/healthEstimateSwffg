@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json&label=core&query=minimumCoreVersion&suffix=%2B&color=important "Minimum core version") 
-![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json&label=compatible&query=compatibleCoreVersion&color=important "Latest compatible version") 
-![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json&label=version&query=version&style=plasticcolor=success)
+![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/prolice/healthEstimateSwffg/healthEstimateSwffg/module.json&label=core&query=minimumCoreVersion&suffix=%2B&color=important "Minimum core version") 
+![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/prolice/healthEstimateSwffg/healthEstimateSwffg/module.json&label=compatible&query=compatibleCoreVersion&color=important "Latest compatible version") 
+![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/prolice/healthEstimateSwffg/healthEstimateSwffg/module.json&label=version&query=version&style=plasticcolor=success)
 
-![GitHub release](https://img.shields.io/github/release-date/Shylight/healthEstimate)
+![GitHub release](https://img.shields.io/github/release-date/Prolice/healthEstimateSwffg)
 [![GitHub commits](https://img.shields.io/github/commits-since/Shylight/healthEstimate/latest/develop)](https://github.com/Shylight/healthEstimate/commits/develop) 
 ![all versions](https://img.shields.io/github/downloads/Shylight/healthEstimate/total) 
 ![the latest version](https://img.shields.io/github/downloads/Shylight/healthEstimate/latest/total) 
