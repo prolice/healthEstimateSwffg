@@ -20,7 +20,7 @@ export class HealthEstimateStyleSettings extends FormApplication {
 		return mergeObject(super.defaultOptions, {
 			id           : 'healthestimate-style-form',
 			title        : 'Health Estimate Style Settings',
-			template     : './modules/healthEstimate/templates/settings.hbs',
+			template     : './modules/healthEstimateSwffg/templates/settings.hbs',
 			classes      : ['sheet'],
 			width        : 640,
 			height       : 480,
@@ -83,7 +83,7 @@ export class HealthEstimateStyleSettings extends FormApplication {
 	}
 
 	initHooks () {
-		const gradientPositions = game.settings.get(`healthEstimate`, `core.menuSettings.gradient`)
+		const gradientPositions = game.settings.get(`healthEstimateSwffg`, `core.menuSettings.gradient`)
 		const mode              = document.getElementById(`mode`)
 
 		this.deadColor       = document.getElementById('deadColor')

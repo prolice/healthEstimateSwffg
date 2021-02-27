@@ -17,7 +17,7 @@ export function addSetting (key, data) {
 		scope : 'world',
 		config: true
 	}
-	game.settings.register('healthEstimate', key, Object.assign(commonData, data))
+	game.settings.register('healthEstimateSwffg', key, Object.assign(commonData, data))
 }
 
 export const registerSettings = function () {
@@ -34,10 +34,10 @@ export const registerSettings = function () {
 			scope : 'world',
 			config: false
 		}
-		game.settings.register('healthEstimate', key, Object.assign(commonData, data))
+		game.settings.register('healthEstimateSwffg', key, Object.assign(commonData, data))
 	}
 
-	game.settings.registerMenu('healthEstimate', 'styleSettings', {
+	game.settings.registerMenu('healthEstimateSwffg', 'styleSettings', {
 		name      : 'Style Settings',
 		label     : 'Style Settings',
 		icon      : 'fas fa-palette',

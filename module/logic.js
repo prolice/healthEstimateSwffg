@@ -29,7 +29,7 @@ export function updateSettings () {
 		`return (
 			${NPCsJustDie ? '(!token.actor.hasPlayerOwner && stage === 0) ||' : ''}
 			${showDead ? `token.actor.effects.entries.some(x => x.data.icon === '${deathMarker}') ||` : ''}
-			token.getFlag('healthEstimate', 'dead')
+			token.getFlag('healthEstimateSwffg', 'dead')
 		)`
 	)
 }
@@ -37,9 +37,9 @@ export function updateSettings () {
 class HealthEstimateOverlay extends BasePlaceableHUD {
 	static get defaultOptions () {
 		const options    = super.defaultOptions
-		options.classes  = options.classes.concat(['healthEstimate', 'healthEstimateColor'])
-		options.template = 'modules/healthEstimate/templates/healthEstimate.hbs'
-		options.id       = 'healthEstimate'
+		options.classes  = options.classes.concat(['healthEstimateSwffg', 'healthEstimateColor'])
+		options.template = 'modules/healthEstimateSwffg/templates/healthEstimate.hbs'
+		options.id       = 'healthEstimateSwffg'
 		return options
 	}
 

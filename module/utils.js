@@ -13,7 +13,7 @@ export function isEmpty (string) {
  * @returns {string}
  */
 export function t (key) {
-	return game.i18n.localize(`healthEstimate.${key}`)
+	return game.i18n.localize(`healthEstimateSwffg.${key}`)
 }
 
 /**
@@ -22,7 +22,7 @@ export function t (key) {
  * @param value
  */
 export function sSet (key, value) {
-	game.settings.set('healthEstimate', key, value)
+	game.settings.set('healthEstimateSwffg', key, value)
 }
 
 /**
@@ -31,7 +31,7 @@ export function sSet (key, value) {
  * @returns {any}
  */
 export function sGet (key) {
-	return game.settings.get('healthEstimate', key)
+	return game.settings.get('healthEstimateSwffg', key)
 }
 
 /**
@@ -40,5 +40,5 @@ export function sGet (key) {
  * @returns {Object}
  */
 export function settingData(key) {
-	return game.settings.settings.get(`healthEstimate.${key}`)
+	return game.settings.settings.get(`healthEstimateSwffg.${key}`)
 }

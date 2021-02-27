@@ -66,9 +66,9 @@ function updateBreakConditions () {
 		if (game.system.id === 'starwarsffg')
 		{
 			if (token.actor.data.type === 'vehicle')
-				breakConditions['system'] = `||game.settings.get('healthEstimate', 'core.breakOnZeroMaxHP') &&  token.actor.data.data.stats.hullTrauma.max === 0`;
+				breakConditions['system'] = `||game.settings.get('healthEstimateSwffg', 'core.breakOnZeroMaxHP') &&  token.actor.data.data.stats.hullTrauma.max === 0`;
 			else
-				breakConditions['system'] = `||game.settings.get('healthEstimate', 'core.breakOnZeroMaxHP') &&  token.actor._data.data.stats.wounds.max === 0`;			
+				breakConditions['system'] = `||game.settings.get('healthEstimateSwffg', 'core.breakOnZeroMaxHP') &&  token.actor._data.data.stats.wounds.max === 0`;			
 		}
 		return new Function(`token`,
 			`return (
